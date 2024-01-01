@@ -1,0 +1,196 @@
+/* firest break point */
+
+@media only screen and (max-width: 1170px) {
+
+    .left_side{
+        display: none;
+    };
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .right_side{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* upper then table */
+
+@media only screen and (max-width: 1024px) {
+
+
+    /* header start */
+    /* left side */
+.header_left_search .search_and_input_parent {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+
+.header_left_search .search_and_input_parent input {
+    display: none;
+}
+
+.header_left_search .search_and_input_parent span{
+
+    text-align: center;
+ 
+}
+
+/* nav */
+    .header_middle_nav ul .tablet {
+        display: block;
+      }
+
+      .header_middle_nav ul .nav_group {
+        display: none;
+    }
+ 
+   .header_left_search .search_and_input_parent input {
+    display: none;
+      }
+
+/* right */
+
+.header_right_profile ul .add_icon {
+    display: block;
+  }
+  
+  .header_right_profile ul .apps {
+    display: none;
+  }
+
+/* header end */
+    
+
+}
+
+/* for tablet device */
+
+@media only screen and (max-width: 768px) {
+
+    /* header start */
+
+.header_middle_nav ul li{
+    display: none;
+  
+}
+
+.header_middle_nav ul .tablet {
+    display: none;
+  }
+ 
+header {
+    flex-wrap: wrap;
+
+}
+
+.header_left_menu{
+    display: block;
+}
+
+/* header end */
+
+
+
+
+/* middle section story */
+.story_box_parent .story_box{
+    flex-basis: 32%;
+}
+.story_box_parent .box_for,.box_five{
+    display: none;
+}
+
+
+
+/* create post */
+
+
+
+.create_hidden_part{
+    display: none;
+}
+
+
+
+
+
+
+/* first post bottom comment  */
+
+.first_post_big_image_parent{
+    height: 200px;
+}
+
+.comment_left_parent li a{
+    padding: 8px 20px;
+}
+
+.comment_right_image_parent img{
+    display: none;
+}
+
+
+.like_comment_parent{
+    min-width: 470px;
+}
+
+
+/* page / suggestion section */
+
+#card{
+    flex-basis: 100%;
+}
+
+.suggest_card_parent{
+    row-gap: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+
+    /* middle story  */
+
+    .story_box_parent .story_box{
+        flex-basis: 100%;
+        height: 300px;
+    }
+    
+.story_box_parent .box_for,.box_three,.box_two{
+    display: none;
+}
+}
